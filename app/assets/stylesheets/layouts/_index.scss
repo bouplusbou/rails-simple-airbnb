@@ -1,0 +1,32 @@
+// Import your layouts CSS files here.
+// Examples:
+// @import "dashboard";
+// @import "profile";
+// @import "map";
+body {
+  background-color: white;
+  padding: 5px 30px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.card {
+  margin: 15px;
+  background-color: #F8F9FA;
+  border: solid 1px lightgrey;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, .2);
+  padding: 15px;
+  height: 300px;
+}
+
+.card_picto {
+  display: flex;
+}
+
+.card_price {
+  position: relative;
+  left: 15px;
+}
