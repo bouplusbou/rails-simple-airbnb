@@ -5,7 +5,6 @@
 // @import "map";
 body {
   background-color: white;
-  padding: 5px 30px;
 }
 
 h1 {
@@ -18,8 +17,18 @@ h1 {
   border: solid 1px lightgrey;
   border-radius: 3px;
   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, .2);
-  padding: 15px;
-  height: 300px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card_content {
+  padding-left: 20px;
+}
+
+.card_picto {
+  padding-left: 20px;
 }
 
 .card_picto {
@@ -29,4 +38,9 @@ h1 {
 .card_price {
   position: relative;
   left: 15px;
+}
+
+.card_link {
+  background-color: white;
+  padding: 10px 25px;
 }
